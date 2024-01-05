@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     noteService
       .getAll()
-      .then(initialNotes => {
+      .then(initialNotes => { 
         setNotes(initialNotes)
       })
   }, [])
